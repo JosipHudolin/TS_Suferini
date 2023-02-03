@@ -1,0 +1,374 @@
+body {
+  background-color: #EDD4B2;
+}
+
+.nav-bar {
+  height: 100px;
+  background-color: #D0A98F;
+  display: flex;
+}
+
+.nav-bar-logo {
+  height: 100px;
+}
+
+.nav-bar-right {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 750px;
+}
+
+.nav-bar-text {
+  color: #4D243D;
+  font-family: 'Cutive Mono', monospace;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 30px;
+  transition: 0.3s;
+}
+
+.nav-bar-text:hover {
+  font-size: 26px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+a { text-decoration: none; }
+
+.first-members {
+  margin-top: 50px;
+  display: flex;
+  background-color: #ECDCC9;
+  height: 410px;
+}
+
+.peric-image {
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  padding: 5px;
+  height: 330px;
+  margin-top: 30px;
+  margin-left: 50px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  background-color: whitesmoke;
+}
+
+.peric-image:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.peric-pharagraph {
+  font-family: 'Cutive Mono', monospace;
+  margin-top: 30px;
+  margin-left: 50px;
+  color: #4D243D;
+  width: 300px
+}
+
+.peric-headline {
+  font-size: 60px;
+  font-weight: 700;
+  transition: 0.3s;
+  margin-top: 0;
+}
+
+.peric-headline:hover {
+  font-size: 65px;
+  font-weight: 800;
+}
+
+.peric-text {
+  font-size: 20px;
+  width: 320px;
+  transition: 0.3s;
+}
+
+.peric-text:hover {
+  font-size: 21px;
+}
+
+.alen-pharagraph {
+  font-family: 'Cutive Mono', monospace;
+  margin-top: 30px;
+  margin-left: 150px;
+  color: #4D243D;
+  width: 300px
+}
+
+.alen-headline {
+  margin-top: 0;
+  font-size: 60px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.alen-headline:hover {
+  font-size: 65px;
+  font-weight: 800;
+}
+
+.alen-text {
+  font-size: 20px;
+  width: 350px;
+  transition: 0.3s;
+}
+
+.alen-text:hover {
+  font-size: 21px;
+}
+
+.alen-image {
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  padding: 5px;
+  height: 330px;
+  margin-top: 30px;
+  margin-left: 65px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  background-color: whitesmoke;
+}
+
+.alen-image:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.second-members {
+  margin-top: 100px;
+  display: flex;
+  background-color: #CAC2B5;
+  height: 410px;
+}
+
+.adam-pharagraph {
+  font-family: 'Cutive Mono', monospace;
+  margin-top: 30px;
+  margin-left: 50px;
+  color: #4D243D;
+  width: 300px
+}
+
+.adam-headline {
+  margin-top: 0;
+  font-size: 60px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.adam-headline:hover {
+  font-size: 65px;
+  font-weight: 800;
+}
+
+.adam-text {
+  font-size: 20px;
+  width: 350px;
+  transition: 0.3s;
+}
+
+.adam-text:hover {
+  font-size: 21px;
+}
+
+.adam-image {
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  padding: 5px;
+  height: 330px;
+  margin-top: 30px;
+  margin-left: 50px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  background-color: whitesmoke;
+}
+
+.adam-image:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.mata-pharagraph {
+  font-family: 'Cutive Mono', monospace;
+  margin-top: 30px;
+  margin-left: 150px;
+  color: #4D243D;
+  width: 300px
+}
+
+.mata-headline {
+  margin-top: 0;
+  font-size: 60px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.mata-headline:hover {
+  font-size: 65px;
+  font-weight: 800;
+}
+
+.mata-text {
+  font-size: 20px;
+  width: 350px;
+  transition: 0.3s;
+}
+
+.mata-text:hover {
+  font-size: 21px;
+}
+
+.mata-image {
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  padding: 5px;
+  height: 330px;
+  margin-top: 30px;
+  margin-left: 65px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  background-color: whitesmoke;
+}
+
+.mata-image:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.third-members {
+  margin-top: 100px;
+  display: flex;
+  background-color: #D0A98F;
+  height: 410px;
+}
+
+.juzba-pharagraph {
+  font-family: 'Cutive Mono', monospace;
+  margin-top: 30px;
+  margin-left: 75px;
+  color: #4D243D;
+  width: 300px
+}
+
+.juzba-headline {
+  margin-top: 0;
+  font-size: 60px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.juzba-headline:hover {
+  font-size: 65px;
+  font-weight: 800;
+}
+
+.juzba-text {
+  font-size: 20px;
+  width: 350px;
+  transition: 0.3s;
+}
+
+.juzba-text:hover {
+  font-size: 21px;
+}
+
+.juzba-image {
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  padding: 5px;
+  height: 330px;
+  margin-top: 30px;
+  margin-left: 70px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  background-color: whitesmoke;
+}
+
+.juzba-image:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.ja-pharagraph {
+  font-family: 'Cutive Mono', monospace;
+  margin-top: 30px;
+  margin-left: 150px;
+  color: #4D243D;
+  width: 300px
+}
+
+.ja-headline {
+  margin-top: 0;
+  font-size: 60px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.ja-headline:hover {
+  font-size: 65px;
+  font-weight: 800;
+}
+
+.ja-text {
+  font-size: 20px;
+  width: 350px;
+  transition: 0.3s;
+}
+
+.ja-text:hover {
+  font-size: 21px;
+}
+
+.ja-image {
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  padding: 5px;
+  height: 330px;
+  margin-top: 30px;
+  margin-left: 65px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  background-color: whitesmoke;
+}
+
+.ja-image:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.bottom {
+  display: flex;
+  background-color: #CAC2B5;
+  height: 100px;
+}
+
+.bottom-logo{
+  height: 100px;
+}
+
+.bottom-author {
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 1fr;
+  font-family: 'Cutive Mono', monospace;
+  align-content: center;
+}
+
+.FERIT {
+  margin-left: 200px;
+  margin-top: 50px;
+  width: 1fr;
+  font-family: 'Cutive Mono', monospace;
+}
+
+.ferit-image {
+  height: 100px;
+}

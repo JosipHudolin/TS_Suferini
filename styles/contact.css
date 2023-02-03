@@ -1,0 +1,93 @@
+body {
+  background-color: #EDD4B2;
+}
+
+.nav-bar {
+  height: 100px;
+  background-color: #D0A98F;
+  display: flex;
+}
+
+.nav-bar-logo {
+  height: 100px;
+}
+
+.nav-bar-right {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 750px;
+}
+
+.nav-bar-text {
+  color: #4D243D;
+  font-family: 'Cutive Mono', monospace;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 30px;
+  transition: 0.3s;
+}
+
+.nav-bar-text:hover {
+  font-size: 26px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+a { text-decoration: none; }
+
+.headline {
+  font-family: 'Cutive Mono', monospace;
+  color: #4D243D;
+  font-size: 70px;
+}
+.contacts {
+  display: flex;
+  font-family: 'Cutive Mono', monospace;
+  color: #4D243D;
+}
+
+.text {
+  font-size: 25px;
+  margin-right: 400px;
+}
+
+.notes {
+  background-color: whitesmoke;
+  height: 450px;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: 20px;
+  opacity: 1;
+}
+
+.bottom {
+  display: flex;
+  background-color: #CAC2B5;
+  height: 100px;
+}
+
+.bottom-logo{
+  height: 100px;
+}
+
+.bottom-author {
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 1fr;
+  font-family: 'Cutive Mono', monospace;
+  align-content: center;
+}
+
+.FERIT {
+  margin-left: 200px;
+  margin-top: 50px;
+  width: 1fr;
+  font-family: 'Cutive Mono', monospace;
+}
+
+.ferit-image {
+  height: 100px;
+}
